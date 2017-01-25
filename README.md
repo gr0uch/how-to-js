@@ -2,6 +2,8 @@
 
 This document is about how I write JavaScript. Having programmed in ECMAScript and its variants (ActionScript) over many years, I've developed a rather idiosyncratic style. Programming tends to be more art than science, so this document might as well be about my art style.
 
+There is a separate document about [JS that I consider harmful](https://github.com/sapeien/how-to-js/blob/master/CONSIDERED_HARMFUL.md).
+
 
 ## Introduction
 
