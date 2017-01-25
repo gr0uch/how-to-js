@@ -14,9 +14,9 @@ Like all code, the best JavaScript is as little JavaScript as possible. But if y
 | RxJS | Avoid these corporate snake oil salesmen. | No alternative is needed. |
 | jQuery | Obsolete fixes for obsolete browsers. | Simulacra.js, DOM API. |
 | Ava, Mocha, Jasmine, test frameworks | Use these if you want test code to look as superfluous as possible. | Tape, Tapdance, TAP. |
-| Socket.io | Forces you to use a proprietary wire protocol, extremely slow. | uWebSocket. |
+| Socket.io | Forces you to use a proprietary application protocol, extremely slow. | uWebSocket, ws. |
 | PostCSS, inline CSS generators | Unnecessary build tooling. | Plain CSS. |
 | Async | Needless complexity. | Callbacks, Promises. |
-| Request, sugary HTTP wrappers | Useless bloat. | Node.js `http.request`, `XmlHttpRequest`, `fetch`. |
+| Request, sugary HTTP wrappers | Useless bloat. | Node.js `http.request`, `XmlHttpRequest`. |
 | Moment | Useless bloat. | Native `Date` object. |
-| Mongoose, Bookshelf, ORMs | ORMs are one of the worst abstractions one could possibly use. | Fortune.js. |
+| Mongoose, Bookshelf, ORMs | ORMs are one of the worst abstractions one could possibly use. | Fortune.js, database drivers. |
