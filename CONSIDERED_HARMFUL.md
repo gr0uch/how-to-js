@@ -20,3 +20,5 @@ Like all code, the best JavaScript is as little JavaScript as possible. But if y
 | Request, sugary HTTP wrappers | Useless bloat. | Node.js `http.request`, `XmlHttpRequest`. |
 | Moment | Useless bloat. | Native `Date` object. |
 | Mongoose, Bookshelf, ORMs | ORMs are one of the worst abstractions one could possibly use. | Fortune.js, database drivers. |
+| `EventEmitter` | From Node.js core, too bloated. | `event-lite`, custom implementation. |
+| `http` | From Node.js core, too slow. | `uws`. |
